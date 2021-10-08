@@ -29,16 +29,11 @@ while($row = mysql_fetch_array($res)){
 				<ul>
 				    <li class="manulist">
 						    <a class ="menulista" href="index.php">Home</a>
-								<a class ="menulista" href="manageStudent.php">Manage Student</a>
-								<a class ="menulista" href="manageTeacher.php">Manage Teacher</a>
-								<a class ="menulista" href="manageParent.php">Manage Parent</a>
-								<a class ="menulista" href="index.php">Manage Staff</a>
+								
 								<a class ="menulista" href="index.php">Course</a>
-								<a class ="menulista" href="index.php">Attendance</a>
+								
 								<a class ="menulista" href="index.php">Exam Schedule</a>
-								<a class ="menulista" href="index.php">Salary</a>
-								<a class ="menulista" href="index.php">Report</a>
-								<a class ="menulista" href="index.php">Payment</a>
+								
 								<div align="center">
 								<h4>Hi!admin <?php echo $check." ";?></h4>
 								<a class ="menulista" href="logout.php" onmouseover="changemouseover(this);" onmouseout="changemouseout(this,'<?php echo ucfirst($loged_user_name);?>');"><?php echo "Logout";?></a>
@@ -66,9 +61,7 @@ while($row = mysql_fetch_array($res)){
                     <th>Address</th>
                     <th>Gender</th>
                     <th>DOB</th>
-                    <th>Hire Date</th>
-                    <th>Salary</th>
-                    <th>Picture</th>
+                    
                 </tr>
                 <?php echo $string;?>
             </table>
